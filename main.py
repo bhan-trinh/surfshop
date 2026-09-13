@@ -9,7 +9,7 @@ NOTE:
 
 def main():
     keyword = sys.argv[1]
-    products = scrape_by_product_search(keyword, "Aldi")
+    products = scrape_by_product_search(keyword, "Tjoe")
     
     for product in products:
         print(product)
