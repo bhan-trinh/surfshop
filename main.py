@@ -1,4 +1,4 @@
-from backend.scrape.scrape_by_product_search import scrape_by_product_search
+from backend.scraper.scrape_by_product_search import scrape_by_product_search
 import sys
 
 """
