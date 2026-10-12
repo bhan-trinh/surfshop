@@ -1,13 +1,13 @@
-from backend.scraper.aldi.aldi import AldiScraper
-from backend.scraper.base import Scraper
-from backend.scraper.trader_joes.trader_joes import TraderJoesScraper
+from backend.scraping.scraper.aldi.aldi import AldiScraper
+from backend.scraping.scraper.base import Scraper
+from backend.scraping.scraper.trader_joes.trader_joes import TraderJoesScraper
 
 """
 NOTE:
 - Make a game with an ecosystem (e.g. Rain World)
 - Make a game with an inventory and item system (e.g. Stardew Valley)
 """
-from backend.models.product_model import Product
+from backend.scraping.models.product_model import Product
 
 
 def scrape_by_product_search(search_keyword: str, store: str) -> list[Product] | None:

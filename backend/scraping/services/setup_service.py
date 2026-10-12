@@ -1,4 +1,4 @@
-from backend import driver
+from backend.scraping import driver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 

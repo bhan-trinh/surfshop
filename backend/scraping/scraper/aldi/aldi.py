@@ -1,13 +1,13 @@
 import time
 from typing import override
 
-from backend.scraper.base import Scraper
+from backend.scraping.scraper.base import Scraper
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.common.by import By
 
-from backend.services.setup_service import close_cookie_panel, scroll_to_load
+from backend.scraping.services.setup_service import close_cookie_panel, scroll_to_load
 
-from backend import driver
+from backend.scraping import driver
 from selenium.webdriver.common.action_chains import ActionChains
 
 class AldiScraper(Scraper):

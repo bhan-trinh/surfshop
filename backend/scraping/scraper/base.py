@@ -1,9 +1,9 @@
 from abc import abstractmethod
 import re
-from backend.models.product_model import Product
+from backend.scraping.models.product_model import Product
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.common.by import By
-from backend import driver
+from backend.scraping import driver
 
 class Scraper:
     def __init__(

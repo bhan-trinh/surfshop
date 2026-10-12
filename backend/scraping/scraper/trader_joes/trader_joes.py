@@ -1,8 +1,8 @@
 from typing import override
 
-from backend.scraper.base import Scraper
+from backend.scraping.scraper.base import Scraper
 import time
-from backend import driver
+from backend.scraping import driver
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
